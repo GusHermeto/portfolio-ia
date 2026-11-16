@@ -9,7 +9,7 @@ Estudante de Engenharia de Computação na UNIFEI (Itajubá, MG). Construo produ
 |---|---|---|
 | [Caderninho](#1-caderninho-ia-para-psicólogas) | App de desktop que transcreve a sessão e rascunha o prontuário | Transcrição, LLM, agente com 21 ferramentas, busca em documentos |
 | [Como eu construo com agentes](#2-como-eu-construo-com-agentes) | O método que uso para desenvolver sozinho com vários agentes de IA | Orquestração, roteamento de modelos, revisão automática |
-| [Mão biônica por voz](#3-mão-biônica-controlada-por-voz-tinyml) | Prótese que obedece a comandos de voz em português | TinyML, reconhecimento de palavras em microcontrolador |
+| [Prótese biônica de mão](#3-prótese-biônica-de-mão-tecnologia-assistiva-e-tinyml) | Tecnologia assistiva: prótese para pessoas com deficiência, controlada por voz em português | TinyML, reconhecimento de palavras em microcontrolador |
 | [Avaliação de transcrição com eco](avaliacao-transcricao/) | Experimento aberto e reproduzível: Whisper em português, com eco e silêncio | Whisper large-v3-turbo local, WER, filtro entre canais. Com [artigo](avaliacao-transcricao/ARTIGO.md) |
 
 ---
@@ -79,11 +79,11 @@ Desenvolvo o Caderninho sozinho, coordenando vários agentes de IA. Eu não escr
 
 ---
 
-## 3. Mão biônica controlada por voz (TinyML)
+## 3. Prótese biônica de mão (tecnologia assistiva e TinyML)
 
-Projeto da equipe Ex Machina, da UNIFEI, da qual fui analista e projetista de eletrônica de 2022 a 2024. O projeto foi destaque no blog oficial da Arduino: [Controlling a bionic hand with tinyML keyword spotting](https://blog.arduino.cc/2022/08/31/controlling-a-bionic-hand-with-tinyml-keyword-spotting/).
+Projeto da equipe Ex Machina, da UNIFEI, que desenvolve próteses biônicas para pessoas com deficiência. Fui analista e projetista de eletrônica da equipe de 2022 a 2024. O projeto foi destaque no blog oficial da Arduino: [Controlling a bionic hand with tinyML keyword spotting](https://blog.arduino.cc/2022/08/31/controlling-a-bionic-hand-with-tinyml-keyword-spotting/).
 
-**O que é.** Uma mão biônica que abre, fecha e faz gestos por comando de voz em português. O modelo roda dentro do microcontrolador (Arduino Nano 33 BLE Sense), sem internet.
+**O que é.** Uma prótese de mão que abre, fecha e faz gestos por comando de voz em português, pensada para devolver autonomia a quem perdeu o movimento ou o membro. O modelo roda dentro do microcontrolador (Arduino Nano 33 BLE Sense), sem internet.
 
 **Como foi feito.**
 - A equipe gravou cerca de 3,5 horas de áudio com 6 comandos.
