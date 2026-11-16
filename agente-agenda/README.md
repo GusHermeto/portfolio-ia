@@ -37,12 +37,21 @@ pip install -r requirements.txt
 pytest
 ```
 
-Os 6 testes usam um modelo de roteiro fixo, sem chave e sem custo. Eles provam o código em volta do modelo: o laço, a confirmação, o erro e o limite de voltas.
+Os testes usam um modelo de roteiro fixo, sem chave e sem custo. Eles provam o código em volta do modelo: o laço, a confirmação, o erro e o limite de voltas.
 
 Com o modelo real (precisa da variável `ANTHROPIC_API_KEY`):
 
 ```
 python agente.py "Marca a Ana Souza na terça às 14h"
+```
+
+## Demonstração no navegador
+
+[app.py](app.py) põe o mesmo agente numa página (Gradio): a conversa mostra cada ferramenta chamada, e a confirmação vira dois botões. Como a página não pode ficar parada esperando o clique, o laço para na proposta e continua depois dele. A demonstração pública usa um modelo mais barato e tem limite de chamadas por dia.
+
+```
+pip install gradio
+python app.py
 ```
 
 ## O que este exemplo não prova
