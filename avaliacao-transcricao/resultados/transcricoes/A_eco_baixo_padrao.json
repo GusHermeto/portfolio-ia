@@ -1,0 +1,450 @@
+[
+ {
+  "ini": 0.8,
+  "fim": 3.52,
+  "texto": "Bom dia! Como foi a sua semana?",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1109,
+  "compressao": 1.4941
+ },
+ {
+  "ini": 4.16,
+  "fim": 10.74,
+  "texto": "Foi cansativa. Acordei várias noites pensando nas tarefas do trabalho e não consegui dormir de novo.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1109,
+  "compressao": 1.4941
+ },
+ {
+  "ini": 11.22,
+  "fim": 15.04,
+  "texto": "Entendo. Quando você acorda assim, o que passa pela sua cabeça?",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1109,
+  "compressao": 1.4941
+ },
+ {
+  "ini": 15.74,
+  "fim": 22.52,
+  "texto": "Eu fico repassando a lista de pendências. Tenho medo de esquecer algo importante e decepcionar o meu chefe.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1109,
+  "compressao": 1.4941
+ },
+ {
+  "ini": 23.22,
+  "fim": 27.06,
+  "texto": "Esse medo de decepcionar aparece só à noite ou também durante o dia?",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1109,
+  "compressao": 1.4941
+ },
+ {
+  "ini": 27.06,
+  "fim": 34.84,
+  "texto": "Também durante o dia. Na reunião o coração acelera, as mãos ficam geladas e eu perco o fio do que estava falando.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1119,
+  "compressao": 1.5308
+ },
+ {
+  "ini": 34.84,
+  "fim": 35.64,
+  "texto": "Uhum, entendo.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1119,
+  "compressao": 1.5308
+ },
+ {
+  "ini": 36.7,
+  "fim": 42.32,
+  "texto": "Depois da reunião eu sinto um cansaço enorme e vergonha. Como se todo mundo tivesse percebido.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1119,
+  "compressao": 1.5308
+ },
+ {
+  "ini": 42.64,
+  "fim": 45.06,
+  "texto": "O que você costuma fazer quando isso acontece?",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1119,
+  "compressao": 1.5308
+ },
+ {
+  "ini": 45.86,
+  "fim": 54.04,
+  "texto": "Eu evito falar mais. Fico quieto, anoto tudo e depois passo a noite revisando para ter certeza de que nada saiu errado.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1119,
+  "compressao": 1.5308
+ },
+ {
+  "ini": 54.04,
+  "fim": 59.14,
+  "texto": "Parece que a revisão traz um alívio rápido, mas depois o medo volta. É isso?",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1027,
+  "compressao": 1.5259
+ },
+ {
+  "ini": 59.82,
+  "fim": 65.72,
+  "texto": "É exatamente isso. Eu confiro. Me sinto melhor por alguns minutos e logo começo a duvidar.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1027,
+  "compressao": 1.5259
+ },
+ {
+  "ini": 65.72,
+  "fim": 66.7,
+  "texto": "Duvidar de novo.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1027,
+  "compressao": 1.5259
+ },
+ {
+  "ini": 67.52,
+  "fim": 73.92,
+  "texto": "Eu sei que é exagero, mas não consigo parar. Parece que a minha cabeça nunca desliga do trabalho.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1027,
+  "compressao": 1.5259
+ },
+ {
+  "ini": 74.26,
+  "fim": 77.28,
+  "texto": "Quando começou essa sensação de que a cabeça não desliga?",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1027,
+  "compressao": 1.5259
+ },
+ {
+  "ini": 77.28,
+  "fim": 84.64,
+  "texto": "Acho que piorou depois que a equipe diminuiu, há uns seis meses. Passei a fazer o trabalho de três pessoas.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.0883,
+  "compressao": 1.5247
+ },
+ {
+  "ini": 85.38,
+  "fim": 91.38,
+  "texto": "Isso é muita responsabilidade para uma pessoa só. Você já conversou com a sua chefia sobre a carga de trabalho?",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.0883,
+  "compressao": 1.5247
+ },
+ {
+  "ini": 92.24,
+  "fim": 97.48,
+  "texto": "Ainda não. Tenho receio de parecer incapaz e de ser o primeiro a perder o emprego.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.0883,
+  "compressao": 1.5247
+ },
+ {
+  "ini": 97.92,
+  "fim": 102.96,
+  "texto": "Vamos fazer uma pausa aqui. Respire fundo e perceba o que o seu corpo está sentindo agora.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.0883,
+  "compressao": 1.5247
+ },
+ {
+  "ini": 102.96,
+  "fim": 123.9,
+  "texto": "Percebi que o meu peito está apertado e que os meus ombros estão tensos.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1629,
+  "compressao": 1.3139
+ },
+ {
+  "ini": 124.5,
+  "fim": 127.64,
+  "texto": "Obrigada por notar isso. Onde o aperto é mais forte?",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1629,
+  "compressao": 1.3139
+ },
+ {
+  "ini": 128.64,
+  "fim": 132.82,
+  "texto": "No meio do peito, quase na garganta. Parece um nó.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1629,
+  "compressao": 1.3139
+ },
+ {
+  "ini": 132.96,
+  "fim": 136.62,
+  "texto": "E o que acontece com esse nó quando você solta o ar bem devagar?",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.0964,
+  "compressao": 1.5679
+ },
+ {
+  "ini": 137.62,
+  "fim": 142.06,
+  "texto": "Ele afrouxa um pouco. Não some, mas fica mais suportável.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.0964,
+  "compressao": 1.5679
+ },
+ {
+  "ini": 142.76,
+  "fim": 148.12,
+  "texto": "Isso é importante. Você tem uma ferramenta pequena que funciona no momento em que a ansiedade aparece.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.0964,
+  "compressao": 1.5679
+ },
+ {
+  "ini": 148.9,
+  "fim": 155.4,
+  "texto": "Eu nunca tinha pensado assim. Sempre achei que respirar fundo era coisa de quem não tem problema de verdade.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.0964,
+  "compressao": 1.5679
+ },
+ {
+  "ini": 155.84,
+  "fim": 161.02,
+  "texto": "A respiração não resolve o problema, mas acalma o corpo para que você pense com mais clareza.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.0964,
+  "compressao": 1.5679
+ },
+ {
+  "ini": 161.02,
+  "fim": 167.18,
+  "texto": "Entendi. Posso tentar isso na próxima reunião, antes de começar a falar.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1693,
+  "compressao": 1.4118
+ },
+ {
+  "ini": 167.76,
+  "fim": 171.8,
+  "texto": "Pode sim. E o que você diria a um colega que estivesse na sua situação?",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1693,
+  "compressao": 1.4118
+ },
+ {
+  "ini": 172.44,
+  "fim": 175.92,
+  "texto": "Eu diria para ele pedir ajuda e não carregar tudo sozinho.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1693,
+  "compressao": 1.4118
+ },
+ {
+  "ini": 176.58,
+  "fim": 177.66,
+  "texto": "É, eu sei.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1693,
+  "compressao": 1.4118
+ },
+ {
+  "ini": 178.62,
+  "fim": 182.08,
+  "texto": "Parece que para os outros eu enxergo a saída, mas para mim não.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1693,
+  "compressao": 1.4118
+ },
+ {
+  "ini": 182.08,
+  "fim": 187.2,
+  "texto": "Pode ficar em silêncio um instante, se quiser, e pensar no que acabou de dizer.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.2694,
+  "compressao": 0.9877
+ },
+ {
+  "ini": 187.2,
+  "fim": 215.28,
+  "texto": "Eu estava pensando que talvez eu esteja sendo mais duro comigo do que seria com qualquer pessoa.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1331,
+  "compressao": 1.1852
+ },
+ {
+  "ini": 215.28,
+  "fim": 220.48,
+  "texto": "Essa observação é muito valiosa. De onde você acha que vem essa cobrança?",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1089,
+  "compressao": 1.5462
+ },
+ {
+  "ini": 221.52,
+  "fim": 227.02,
+  "texto": "Do meu pai, eu acho. Ele dizia que quem trabalha direito não precisa de descanso.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1089,
+  "compressao": 1.5462
+ },
+ {
+  "ini": 227.72,
+  "fim": 230.16,
+  "texto": "E hoje, o que você pensa sobre essa frase?",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1089,
+  "compressao": 1.5462
+ },
+ {
+  "ini": 231.02,
+  "fim": 235.86,
+  "texto": "Hoje eu acho que ela me faz mal. Mas quando eu descanso, sinto culpa.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1089,
+  "compressao": 1.5462
+ },
+ {
+  "ini": 236.7,
+  "fim": 241.94,
+  "texto": "A culpa parece como uma voz que cobra. Dá para imaginar o que você responderia a essa voz?",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1089,
+  "compressao": 1.5462
+ },
+ {
+  "ini": 241.94,
+  "fim": 246.52,
+  "texto": "Eu diria que já fiz o que dava para fazer hoje e que amanhã tem mais um dia.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.116,
+  "compressao": 1.4641
+ },
+ {
+  "ini": 247.18,
+  "fim": 251.34,
+  "texto": "Muito bem. Que tal anotar essa frase para usar nos momentos difíceis?",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.116,
+  "compressao": 1.4641
+ },
+ {
+  "ini": 252.42,
+  "fim": 256.58,
+  "texto": "Boa ideia. Vou escrever no caderno que eu levo para o trabalho.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.116,
+  "compressao": 1.4641
+ },
+ {
+  "ini": 257.32,
+  "fim": 261.24,
+  "texto": "Combinado. Agora vamos pensar em um pequeno passo para esta semana.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.116,
+  "compressao": 1.4641
+ },
+ {
+  "ini": 262.26,
+  "fim": 265.94,
+  "texto": "Talvez conversar com a minha chefe sobre dividir algumas tarefas.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.116,
+  "compressao": 1.4641
+ },
+ {
+  "ini": 265.94,
+  "fim": 269.08,
+  "texto": "Como você se sente ao imaginar essa conversa?",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1804,
+  "compressao": 1.3559
+ },
+ {
+  "ini": 269.92,
+  "fim": 274.3,
+  "texto": "Com medo. Mas também um pouco aliviado. Porque pelo menos seria um começo.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1804,
+  "compressao": 1.3559
+ },
+ {
+  "ini": 274.66,
+  "fim": 277.72,
+  "texto": "Então podemos ensaiar a conversa. Fique à vontade.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1804,
+  "compressao": 1.3559
+ },
+ {
+  "ini": 278.06,
+  "fim": 281.42,
+  "texto": "Não precisa falar nada neste momento se preferir pensar antes.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1804,
+  "compressao": 1.3559
+ },
+ {
+  "ini": 281.42,
+  "fim": 311.4,
+  "texto": "Não precisa falar nada neste momento.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.5138,
+  "compressao": 0.8261
+ },
+ {
+  "ini": 311.4,
+  "fim": 315.9,
+  "texto": "Não consigo começar dizendo que estou comprometido, mas que a carga está pesada demais.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1151,
+  "compressao": 1.4797
+ },
+ {
+  "ini": 316.38,
+  "fim": 319.68,
+  "texto": "Perfeito. Essa frase é clara, honesta e respeitosa.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1151,
+  "compressao": 1.4797
+ },
+ {
+  "ini": 320.4,
+  "fim": 324.62,
+  "texto": "Obrigado. Eu estou me sentindo mais leve do que quando cheguei.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1151,
+  "compressao": 1.4797
+ },
+ {
+  "ini": 324.9,
+  "fim": 330.52,
+  "texto": "Fico feliz em ouvir isso. Para a próxima semana, vamos manter a respiração e a frase no caderno.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1151,
+  "compressao": 1.4797
+ },
+ {
+  "ini": 331.18,
+  "fim": 335.2,
+  "texto": "Combinado. Vou tentar também dormir um pouco mais cedo.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1151,
+  "compressao": 1.4797
+ },
+ {
+  "ini": 335.2,
+  "fim": 338.78,
+  "texto": "Ótimo. Nos vemos na próxima sessão. Cuide-se.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1717,
+  "compressao": 1.0
+ },
+ {
+  "ini": 339.58,
+  "fim": 341.54,
+  "texto": "Obrigado. Até a semana que vem.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1717,
+  "compressao": 1.0
+ }
+]

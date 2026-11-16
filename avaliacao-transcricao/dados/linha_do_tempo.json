@@ -1,0 +1,343 @@
+{
+ "turnos": [
+  {
+   "falante": "terapeuta",
+   "texto": "Bom dia. Como foi a sua semana?",
+   "ini": 1.184,
+   "fim": 3.661
+  },
+  {
+   "falante": "paciente",
+   "texto": "Foi cansativa. Acordei várias noites pensando nas tarefas do trabalho e não consegui dormir de novo.",
+   "ini": 3.976,
+   "fim": 10.697
+  },
+  {
+   "falante": "terapeuta",
+   "texto": "Entendo. Quando você acorda assim, o que passa pela sua cabeça?",
+   "ini": 11.162,
+   "fim": 15.186
+  },
+  {
+   "falante": "paciente",
+   "texto": "Eu fico repassando a lista de pendências. Tenho medo de esquecer algo importante e decepcionar o meu chefe.",
+   "ini": 15.62,
+   "fim": 22.453
+  },
+  {
+   "falante": "terapeuta",
+   "texto": "Esse medo de decepcionar aparece só à noite ou também durante o dia?",
+   "ini": 23.195,
+   "fim": 27.177
+  },
+  {
+   "falante": "paciente",
+   "texto": "Também durante o dia. Na reunião o coração acelera, as mãos ficam geladas e eu perco o fio do que estava falando.",
+   "ini": 27.883,
+   "fim": 35.356
+  },
+  {
+   "falante": "terapeuta",
+   "texto": "Uhum, entendo.",
+   "ini": 34.656,
+   "fim": 35.734
+  },
+  {
+   "falante": "paciente",
+   "texto": "Depois da reunião eu sinto um cansaço enorme e vergonha, como se todo mundo tivesse percebido.",
+   "ini": 36.569,
+   "fim": 42.265
+  },
+  {
+   "falante": "terapeuta",
+   "texto": "O que você costuma fazer quando isso acontece?",
+   "ini": 42.617,
+   "fim": 45.22
+  },
+  {
+   "falante": "paciente",
+   "texto": "Eu evito falar mais. Fico quieto, anoto tudo e depois passo a noite revisando para ter certeza de que nada saiu errado.",
+   "ini": 45.773,
+   "fim": 54.032
+  },
+  {
+   "falante": "terapeuta",
+   "texto": "Parece que a revisão traz um alívio rápido, mas depois o medo volta. É isso?",
+   "ini": 54.35,
+   "fim": 59.264
+  },
+  {
+   "falante": "paciente",
+   "texto": "É exatamente isso. Eu confiro, me sinto melhor por alguns minutos e logo começo a duvidar de novo.",
+   "ini": 59.695,
+   "fim": 66.259
+  },
+  {
+   "falante": "terapeuta",
+   "texto": "Duvidar de novo.",
+   "ini": 65.659,
+   "fim": 66.819
+  },
+  {
+   "falante": "paciente",
+   "texto": "Eu sei que é exagero, mas não consigo parar. Parece que a minha cabeça nunca desliga do trabalho.",
+   "ini": 67.422,
+   "fim": 73.912
+  },
+  {
+   "falante": "terapeuta",
+   "texto": "Quando começou essa sensação de que a cabeça não desliga?",
+   "ini": 74.228,
+   "fim": 77.404
+  },
+  {
+   "falante": "paciente",
+   "texto": "Acho que piorou depois que a equipe diminuiu, há uns seis meses. Passei a fazer o trabalho de três pessoas.",
+   "ini": 77.823,
+   "fim": 84.652
+  },
+  {
+   "falante": "terapeuta",
+   "texto": "Isso é muita responsabilidade para uma pessoa só. Você já conversou com a sua chefia sobre a carga de trabalho?",
+   "ini": 85.342,
+   "fim": 91.51
+  },
+  {
+   "falante": "paciente",
+   "texto": "Ainda não. Tenho receio de parecer incapaz e de ser o primeiro a perder o emprego.",
+   "ini": 92.137,
+   "fim": 97.418
+  },
+  {
+   "falante": "terapeuta",
+   "texto": "Vamos fazer uma pausa aqui. Respire fundo e perceba o que o seu corpo está sentindo agora.",
+   "ini": 97.85,
+   "fim": 103.063
+  },
+  {
+   "falante": "paciente",
+   "texto": "Percebi que o meu peito está apertado e que os meus ombros estão tensos.",
+   "ini": 120.063,
+   "fim": 123.822
+  },
+  {
+   "falante": "terapeuta",
+   "texto": "Obrigada por notar isso. Onde o aperto é mais forte?",
+   "ini": 124.475,
+   "fim": 127.791
+  },
+  {
+   "falante": "paciente",
+   "texto": "No meio do peito, quase na garganta. Parece um nó.",
+   "ini": 128.577,
+   "fim": 132.72
+  },
+  {
+   "falante": "terapeuta",
+   "texto": "E o que acontece com esse nó quando você solta o ar bem devagar?",
+   "ini": 133.024,
+   "fim": 136.717
+  },
+  {
+   "falante": "paciente",
+   "texto": "Ele afrouxa um pouco. Não some, mas fica mais suportável.",
+   "ini": 137.501,
+   "fim": 141.991
+  },
+  {
+   "falante": "terapeuta",
+   "texto": "Isso é importante. Você tem uma ferramenta pequena que funciona no momento em que a ansiedade aparece.",
+   "ini": 142.71,
+   "fim": 148.267
+  },
+  {
+   "falante": "paciente",
+   "texto": "Eu nunca tinha pensado assim. Sempre achei que respirar fundo era coisa de quem não tem problema de verdade.",
+   "ini": 148.771,
+   "fim": 155.414
+  },
+  {
+   "falante": "terapeuta",
+   "texto": "A respiração não resolve o problema, mas acalma o corpo para que você pense com mais clareza.",
+   "ini": 155.807,
+   "fim": 161.101
+  },
+  {
+   "falante": "paciente",
+   "texto": "Entendi. Posso tentar isso na próxima reunião, antes de começar a falar.",
+   "ini": 161.975,
+   "fim": 167.221
+  },
+  {
+   "falante": "terapeuta",
+   "texto": "Pode sim. E o que você diria a um colega que estivesse na sua situação?",
+   "ini": 167.723,
+   "fim": 172.002
+  },
+  {
+   "falante": "paciente",
+   "texto": "Eu diria para ele pedir ajuda e não carregar tudo sozinho.",
+   "ini": 172.358,
+   "fim": 175.691
+  },
+  {
+   "falante": "terapeuta",
+   "texto": "Tudo sozinho.",
+   "ini": 175.191,
+   "fim": 176.058
+  },
+  {
+   "falante": "paciente",
+   "texto": "É, eu sei. Parece que para os outros eu enxergo a saída, mas para mim não.",
+   "ini": 176.416,
+   "fim": 182.08
+  },
+  {
+   "falante": "terapeuta",
+   "texto": "Pode ficar em silêncio um instante, se quiser, e pensar no que acabou de dizer.",
+   "ini": 182.888,
+   "fim": 187.283
+  },
+  {
+   "falante": "paciente",
+   "texto": "Eu estava pensando que talvez eu esteja sendo mais duro comigo do que seria com qualquer pessoa.",
+   "ini": 210.283,
+   "fim": 215.282
+  },
+  {
+   "falante": "terapeuta",
+   "texto": "Essa observação é muito valiosa. De onde você acha que vem essa cobrança?",
+   "ini": 215.944,
+   "fim": 220.551
+  },
+  {
+   "falante": "paciente",
+   "texto": "Do meu pai, eu acho. Ele dizia que quem trabalha direito não precisa de descanso.",
+   "ini": 221.336,
+   "fim": 226.937
+  },
+  {
+   "falante": "terapeuta",
+   "texto": "E hoje, o que você pensa sobre essa frase?",
+   "ini": 227.675,
+   "fim": 230.263
+  },
+  {
+   "falante": "paciente",
+   "texto": "Hoje eu acho que ela me faz mal. Mas quando eu descanso, sinto culpa.",
+   "ini": 230.884,
+   "fim": 235.835
+  },
+  {
+   "falante": "terapeuta",
+   "texto": "A culpa aparece como uma voz que cobra. Dá para imaginar o que você responderia a essa voz?",
+   "ini": 236.719,
+   "fim": 242.081
+  },
+  {
+   "falante": "paciente",
+   "texto": "Eu diria que já fiz o que dava para fazer hoje e que amanhã tem mais um dia.",
+   "ini": 242.608,
+   "fim": 246.47
+  },
+  {
+   "falante": "terapeuta",
+   "texto": "Muito bem. Que tal anotar essa frase para usar nos momentos difíceis?",
+   "ini": 247.101,
+   "fim": 251.422
+  },
+  {
+   "falante": "paciente",
+   "texto": "Boa ideia. Vou escrever no caderno que eu levo para o trabalho.",
+   "ini": 252.22,
+   "fim": 256.579
+  },
+  {
+   "falante": "terapeuta",
+   "texto": "Combinado. Agora vamos pensar em um pequeno passo para esta semana.",
+   "ini": 257.25,
+   "fim": 261.364
+  },
+  {
+   "falante": "paciente",
+   "texto": "Talvez conversar com a minha chefe sobre dividir algumas tarefas.",
+   "ini": 262.181,
+   "fim": 265.901
+  },
+  {
+   "falante": "terapeuta",
+   "texto": "Como você se sente ao imaginar essa conversa?",
+   "ini": 266.547,
+   "fim": 269.111
+  },
+  {
+   "falante": "paciente",
+   "texto": "Com medo, mas também um pouco aliviado, porque pelo menos seria um começo.",
+   "ini": 269.834,
+   "fim": 274.296
+  },
+  {
+   "falante": "terapeuta",
+   "texto": "Então podemos ensaiar a conversa. Fique à vontade, não precisa falar nada neste momento se preferir pensar antes.",
+   "ini": 274.623,
+   "fim": 281.578
+  },
+  {
+   "falante": "paciente",
+   "texto": "Acho que consigo começar dizendo que estou comprometido, mas que a carga está pesada demais.",
+   "ini": 310.578,
+   "fim": 315.907
+  },
+  {
+   "falante": "terapeuta",
+   "texto": "Perfeito. Essa frase é clara, honesta e respeitosa.",
+   "ini": 316.344,
+   "fim": 319.761
+  },
+  {
+   "falante": "paciente",
+   "texto": "Obrigado. Eu estou me sentindo mais leve do que quando cheguei.",
+   "ini": 320.235,
+   "fim": 324.479
+  },
+  {
+   "falante": "terapeuta",
+   "texto": "Fico feliz em ouvir isso. Para a próxima semana, vamos manter a respiração e a frase no caderno.",
+   "ini": 324.827,
+   "fim": 330.559
+  },
+  {
+   "falante": "paciente",
+   "texto": "Combinado. Vou tentar também dormir um pouco mais cedo.",
+   "ini": 330.998,
+   "fim": 335.19
+  },
+  {
+   "falante": "terapeuta",
+   "texto": "Ótimo. Nos vemos na próxima sessão. Cuide-se.",
+   "ini": 335.55,
+   "fim": 338.867
+  },
+  {
+   "falante": "paciente",
+   "texto": "Obrigado, até a semana que vem.",
+   "ini": 339.334,
+   "fim": 341.477
+  }
+ ],
+ "silencios": [
+  [
+   103.063,
+   120.063
+  ],
+  [
+   187.283,
+   210.283
+  ],
+  [
+   281.578,
+   310.578
+  ]
+ ],
+ "duracao": 342.477
+}

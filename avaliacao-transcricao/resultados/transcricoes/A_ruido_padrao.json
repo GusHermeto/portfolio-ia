@@ -1,0 +1,370 @@
+[
+ {
+  "ini": 0.84,
+  "fim": 3.52,
+  "texto": "Bom dia! Como foi a sua semana?",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1396,
+  "compressao": 1.2519
+ },
+ {
+  "ini": 11.1,
+  "fim": 15.04,
+  "texto": "Entendo. Quando você acorda assim, o que passa pela sua cabeça?",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1396,
+  "compressao": 1.2519
+ },
+ {
+  "ini": 22.86,
+  "fim": 27.06,
+  "texto": "Esse medo de decepcionar aparece só à noite ou também durante o dia?",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1396,
+  "compressao": 1.2519
+ },
+ {
+  "ini": 30.0,
+  "fim": 35.64,
+  "texto": "Uhum, entendo.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1804,
+  "compressao": 1.126
+ },
+ {
+  "ini": 42.04,
+  "fim": 45.08,
+  "texto": "O que você costuma fazer quando isso acontece?",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1804,
+  "compressao": 1.126
+ },
+ {
+  "ini": 54.02,
+  "fim": 59.14,
+  "texto": "Parece que a revisão traz um alívio rápido, mas depois o medo volta. É isso?",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1804,
+  "compressao": 1.126
+ },
+ {
+  "ini": 60.0,
+  "fim": 66.72,
+  "texto": "Duvidar de novo.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.3928,
+  "compressao": 0.9875
+ },
+ {
+  "ini": 73.64,
+  "fim": 77.3,
+  "texto": "Quando começou essa sensação de que a cabeça não desliga?",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.3928,
+  "compressao": 0.9875
+ },
+ {
+  "ini": 77.3,
+  "fim": 91.38,
+  "texto": "Isso é muita responsabilidade para uma pessoa só. Você já conversou com a sua chefia sobre a carga de trabalho?",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1366,
+  "compressao": 1.0849
+ },
+ {
+  "ini": 91.38,
+  "fim": 102.98,
+  "texto": "Vamos fazer uma pausa aqui. Respire fundo e perceba o que o seu corpo está sentindo agora.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1198,
+  "compressao": 1.0706
+ },
+ {
+  "ini": 102.98,
+  "fim": 118.62,
+  "texto": "Obrigada por notar isso. Onde o aperto é mais forte?",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.2338,
+  "compressao": 0.8689
+ },
+ {
+  "ini": 118.62,
+  "fim": 136.62,
+  "texto": "E o que acontece com esse nó quando você solta o ar bem devagar?",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.2781,
+  "compressao": 0.9429
+ },
+ {
+  "ini": 136.62,
+  "fim": 148.12,
+  "texto": "Isso é importante. Você tem uma ferramenta pequena que funciona no momento em que a ansiedade aparece.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1136,
+  "compressao": 1.1429
+ },
+ {
+  "ini": 148.12,
+  "fim": 161.04,
+  "texto": "A respiração não resolve o problema, mas acalma o corpo para que você pense com mais clareza.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1924,
+  "compressao": 1.2932
+ },
+ {
+  "ini": 167.4,
+  "fim": 171.8,
+  "texto": "Pode sim. E o que você diria a um colega que estivesse na sua situação?",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1924,
+  "compressao": 1.2932
+ },
+ {
+  "ini": 171.8,
+  "fim": 187.14,
+  "texto": "Pode ficar em silêncio um instante, se quiser, e pensar no que acabou de dizer.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.2825,
+  "compressao": 0.9877
+ },
+ {
+  "ini": 187.14,
+  "fim": 217.12,
+  "texto": "Essa observação é muito importante.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.4276,
+  "compressao": 0.8261
+ },
+ {
+  "ini": 217.12,
+  "fim": 220.46,
+  "texto": "Essa observação é muito valiosa. De onde você acha que vem essa cobrança?",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1545,
+  "compressao": 1.4145
+ },
+ {
+  "ini": 227.34,
+  "fim": 230.16,
+  "texto": "E hoje, o que você pensa sobre essa frase?",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1545,
+  "compressao": 1.4145
+ },
+ {
+  "ini": 236.4,
+  "fim": 241.94,
+  "texto": "A culpa parece como uma voz que cobra. Dá para imaginar o que você responderia a essa voz?",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1545,
+  "compressao": 1.4145
+ },
+ {
+  "ini": 247.12,
+  "fim": 251.34,
+  "texto": "Muito bem. Que tal anotar essa frase para usar nos momentos difíceis?",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.147,
+  "compressao": 1.2105
+ },
+ {
+  "ini": 257.34,
+  "fim": 261.26,
+  "texto": "Combinado. Agora vamos pensar em um pequeno passo para esta semana.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.147,
+  "compressao": 1.2105
+ },
+ {
+  "ini": 261.26,
+  "fim": 269.04,
+  "texto": "Como você se sente ao imaginar essa conversa?",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.2747,
+  "compressao": 1.2734
+ },
+ {
+  "ini": 274.4,
+  "fim": 277.74,
+  "texto": "Então podemos ensaiar a conversa. Fique à vontade.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.2747,
+  "compressao": 1.2734
+ },
+ {
+  "ini": 278.04,
+  "fim": 281.44,
+  "texto": "Não precisa falar nada neste momento se preferir pensar antes.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.2747,
+  "compressao": 1.2734
+ },
+ {
+  "ini": 281.44,
+  "fim": 283.18,
+  "texto": "Deus.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -1.4067,
+  "compressao": 2.2899
+ },
+ {
+  "ini": 283.18,
+  "fim": 283.44,
+  "texto": "É...",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -1.4067,
+  "compressao": 2.2899
+ },
+ {
+  "ini": 283.44,
+  "fim": 285.82,
+  "texto": "Não precisa falar nada neste momento.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -1.4067,
+  "compressao": 2.2899
+ },
+ {
+  "ini": 285.82,
+  "fim": 287.34,
+  "texto": "E aí...",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -1.4067,
+  "compressao": 2.2899
+ },
+ {
+  "ini": 287.34,
+  "fim": 287.48,
+  "texto": "E aí...",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -1.4067,
+  "compressao": 2.2899
+ },
+ {
+  "ini": 287.48,
+  "fim": 288.22,
+  "texto": "E aí...",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -1.4067,
+  "compressao": 2.2899
+ },
+ {
+  "ini": 288.22,
+  "fim": 289.54,
+  "texto": "E aí...",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -1.4067,
+  "compressao": 2.2899
+ },
+ {
+  "ini": 289.54,
+  "fim": 289.72,
+  "texto": "E aí...",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -1.4067,
+  "compressao": 2.2899
+ },
+ {
+  "ini": 289.72,
+  "fim": 290.12,
+  "texto": "E aí...",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -1.4067,
+  "compressao": 2.2899
+ },
+ {
+  "ini": 290.12,
+  "fim": 291.56,
+  "texto": "E aí...",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -1.4067,
+  "compressao": 2.2899
+ },
+ {
+  "ini": 291.56,
+  "fim": 292.14,
+  "texto": "E aí...",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -1.4067,
+  "compressao": 2.2899
+ },
+ {
+  "ini": 292.14,
+  "fim": 292.36,
+  "texto": "E aí...",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -1.4067,
+  "compressao": 2.2899
+ },
+ {
+  "ini": 292.36,
+  "fim": 292.82,
+  "texto": "E aí...",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -1.4067,
+  "compressao": 2.2899
+ },
+ {
+  "ini": 293.66,
+  "fim": 294.32,
+  "texto": "E aí...",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -1.4067,
+  "compressao": 2.2899
+ },
+ {
+  "ini": 294.32,
+  "fim": 294.88,
+  "texto": "E aí...",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -1.4067,
+  "compressao": 2.2899
+ },
+ {
+  "ini": 294.88,
+  "fim": 319.66,
+  "texto": "Perfeito, essa frase é clara, honesta e respeitosa.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1801,
+  "compressao": 0.8966
+ },
+ {
+  "ini": 324.88,
+  "fim": 326.32,
+  "texto": "Fico feliz em ouvir isso.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1443,
+  "compressao": 1.1935
+ },
+ {
+  "ini": 326.7,
+  "fim": 330.52,
+  "texto": "Para a próxima semana, vamos manter a respiração e a frase no caderno.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1443,
+  "compressao": 1.1935
+ },
+ {
+  "ini": 335.44,
+  "fim": 336.04,
+  "texto": "Ótimo!",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1443,
+  "compressao": 1.1935
+ },
+ {
+  "ini": 336.38,
+  "fim": 337.9,
+  "texto": "Nos vemos na próxima sessão.",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1443,
+  "compressao": 1.1935
+ },
+ {
+  "ini": 338.28,
+  "fim": 338.78,
+  "texto": "Cuide-se!",
+  "no_speech_prob": 0.0,
+  "avg_logprob": -0.1443,
+  "compressao": 1.1935
+ }
+]

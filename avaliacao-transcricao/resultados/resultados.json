@@ -1,0 +1,461 @@
+{
+ "canal_a": {
+  "limpo": {
+   "antes": {
+    "wer": 0.0438871473354232,
+    "substituicoes": 1,
+    "remocoes": 2,
+    "insercoes": 11,
+    "palavras_ref": 319,
+    "segmentos": 29,
+    "fala": 29,
+    "eco": 0,
+    "silencio": 0,
+    "outro": 0
+   },
+   "t1": {
+    "wer": 0.003134796238244514,
+    "substituicoes": 1,
+    "remocoes": 0,
+    "insercoes": 0,
+    "palavras_ref": 319,
+    "segmentos": 39,
+    "fala": 39,
+    "eco": 0,
+    "silencio": 0,
+    "outro": 0,
+    "removidos": {
+     "fala": 0,
+     "eco": 0,
+     "silencio": 0,
+     "outro": 0
+    }
+   },
+   "t2": {
+    "wer": 0.0438871473354232,
+    "substituicoes": 1,
+    "remocoes": 2,
+    "insercoes": 11,
+    "palavras_ref": 319,
+    "segmentos": 29,
+    "fala": 29,
+    "eco": 0,
+    "silencio": 0,
+    "outro": 0,
+    "removidos": {
+     "fala": 0,
+     "eco": 0,
+     "silencio": 0,
+     "outro": 0
+    }
+   },
+   "t1+t2": {
+    "wer": 0.003134796238244514,
+    "substituicoes": 1,
+    "remocoes": 0,
+    "insercoes": 0,
+    "palavras_ref": 319,
+    "segmentos": 39,
+    "fala": 39,
+    "eco": 0,
+    "silencio": 0,
+    "outro": 0,
+    "removidos": {
+     "fala": 0,
+     "eco": 0,
+     "silencio": 0,
+     "outro": 0
+    }
+   }
+  },
+  "eco_baixo": {
+   "antes": {
+    "wer": 1.2539184952978057,
+    "substituicoes": 1,
+    "remocoes": 0,
+    "insercoes": 399,
+    "palavras_ref": 319,
+    "segmentos": 56,
+    "fala": 28,
+    "eco": 28,
+    "silencio": 0,
+    "outro": 0
+   },
+   "t1": {
+    "wer": 1.238244514106583,
+    "substituicoes": 1,
+    "remocoes": 0,
+    "insercoes": 394,
+    "palavras_ref": 319,
+    "segmentos": 76,
+    "fala": 35,
+    "eco": 41,
+    "silencio": 0,
+    "outro": 0,
+    "removidos": {
+     "fala": 0,
+     "eco": 0,
+     "silencio": 0,
+     "outro": 0
+    }
+   },
+   "t2": {
+    "wer": 0.02821316614420063,
+    "substituicoes": 1,
+    "remocoes": 2,
+    "insercoes": 6,
+    "palavras_ref": 319,
+    "segmentos": 28,
+    "fala": 28,
+    "eco": 0,
+    "silencio": 0,
+    "outro": 0,
+    "removidos": {
+     "fala": 0,
+     "eco": 28,
+     "silencio": 0,
+     "outro": 0
+    }
+   },
+   "t1+t2": {
+    "wer": 0.01567398119122257,
+    "substituicoes": 1,
+    "remocoes": 2,
+    "insercoes": 2,
+    "palavras_ref": 319,
+    "segmentos": 36,
+    "fala": 35,
+    "eco": 1,
+    "silencio": 0,
+    "outro": 0,
+    "removidos": {
+     "fala": 0,
+     "eco": 40,
+     "silencio": 0,
+     "outro": 0
+    }
+   }
+  },
+  "eco_alto": {
+   "antes": {
+    "wer": 1.2351097178683386,
+    "substituicoes": 1,
+    "remocoes": 0,
+    "insercoes": 393,
+    "palavras_ref": 319,
+    "segmentos": 54,
+    "fala": 26,
+    "eco": 28,
+    "silencio": 0,
+    "outro": 0
+   },
+   "t1": {
+    "wer": 1.2351097178683386,
+    "substituicoes": 1,
+    "remocoes": 0,
+    "insercoes": 393,
+    "palavras_ref": 319,
+    "segmentos": 71,
+    "fala": 32,
+    "eco": 39,
+    "silencio": 0,
+    "outro": 0,
+    "removidos": {
+     "fala": 0,
+     "eco": 0,
+     "silencio": 0,
+     "outro": 0
+    }
+   },
+   "t2": {
+    "wer": 0.018808777429467086,
+    "substituicoes": 1,
+    "remocoes": 5,
+    "insercoes": 0,
+    "palavras_ref": 319,
+    "segmentos": 26,
+    "fala": 26,
+    "eco": 0,
+    "silencio": 0,
+    "outro": 0,
+    "removidos": {
+     "fala": 0,
+     "eco": 28,
+     "silencio": 0,
+     "outro": 0
+    }
+   },
+   "t1+t2": {
+    "wer": 0.018808777429467086,
+    "substituicoes": 1,
+    "remocoes": 5,
+    "insercoes": 0,
+    "palavras_ref": 319,
+    "segmentos": 32,
+    "fala": 32,
+    "eco": 0,
+    "silencio": 0,
+    "outro": 0,
+    "removidos": {
+     "fala": 0,
+     "eco": 39,
+     "silencio": 0,
+     "outro": 0
+    }
+   }
+  },
+  "ruido": {
+   "antes": {
+    "wer": 0.12539184952978055,
+    "substituicoes": 1,
+    "remocoes": 2,
+    "insercoes": 37,
+    "palavras_ref": 319,
+    "segmentos": 46,
+    "fala": 32,
+    "eco": 0,
+    "silencio": 14,
+    "outro": 0
+   },
+   "t1": {
+    "wer": 0.003134796238244514,
+    "substituicoes": 1,
+    "remocoes": 0,
+    "insercoes": 0,
+    "palavras_ref": 319,
+    "segmentos": 43,
+    "fala": 43,
+    "eco": 0,
+    "silencio": 0,
+    "outro": 0,
+    "removidos": {
+     "fala": 0,
+     "eco": 0,
+     "silencio": 0,
+     "outro": 0
+    }
+   },
+   "t2": {
+    "wer": 0.12539184952978055,
+    "substituicoes": 1,
+    "remocoes": 2,
+    "insercoes": 37,
+    "palavras_ref": 319,
+    "segmentos": 46,
+    "fala": 32,
+    "eco": 0,
+    "silencio": 14,
+    "outro": 0,
+    "removidos": {
+     "fala": 0,
+     "eco": 0,
+     "silencio": 0,
+     "outro": 0
+    }
+   },
+   "t1+t2": {
+    "wer": 0.003134796238244514,
+    "substituicoes": 1,
+    "remocoes": 0,
+    "insercoes": 0,
+    "palavras_ref": 319,
+    "segmentos": 43,
+    "fala": 43,
+    "eco": 0,
+    "silencio": 0,
+    "outro": 0,
+    "removidos": {
+     "fala": 0,
+     "eco": 0,
+     "silencio": 0,
+     "outro": 0
+    }
+   }
+  }
+ },
+ "canal_b": {
+  "antes": {
+   "wer": 0.002512562814070352,
+   "substituicoes": 0,
+   "remocoes": 0,
+   "insercoes": 1,
+   "palavras_ref": 398,
+   "segmentos": 37,
+   "fala": 37,
+   "eco": 0,
+   "silencio": 0,
+   "outro": 0
+  },
+  "t1": {
+   "wer": 0.0,
+   "substituicoes": 0,
+   "remocoes": 0,
+   "insercoes": 0,
+   "palavras_ref": 398,
+   "segmentos": 49,
+   "fala": 49,
+   "eco": 0,
+   "silencio": 0,
+   "outro": 0,
+   "removidos": {
+    "fala": 0,
+    "eco": 0,
+    "silencio": 0,
+    "outro": 0
+   }
+  }
+ },
+ "varredura_limiar": [
+  {
+   "limiar": 50,
+   "min_palavras_parcial": 4,
+   "eco_restante": {
+    "limpo": 0,
+    "eco_baixo": 0,
+    "eco_alto": 0,
+    "ruido": 0
+   },
+   "fala_removida": 11
+  },
+  {
+   "limiar": 60,
+   "min_palavras_parcial": 4,
+   "eco_restante": {
+    "limpo": 0,
+    "eco_baixo": 0,
+    "eco_alto": 0,
+    "ruido": 0
+   },
+   "fala_removida": 0
+  },
+  {
+   "limiar": 70,
+   "min_palavras_parcial": 4,
+   "eco_restante": {
+    "limpo": 0,
+    "eco_baixo": 0,
+    "eco_alto": 0,
+    "ruido": 0
+   },
+   "fala_removida": 0
+  },
+  {
+   "limiar": 80,
+   "min_palavras_parcial": 4,
+   "eco_restante": {
+    "limpo": 0,
+    "eco_baixo": 0,
+    "eco_alto": 0,
+    "ruido": 0
+   },
+   "fala_removida": 0
+  },
+  {
+   "limiar": 90,
+   "min_palavras_parcial": 4,
+   "eco_restante": {
+    "limpo": 0,
+    "eco_baixo": 0,
+    "eco_alto": 0,
+    "ruido": 0
+   },
+   "fala_removida": 0
+  },
+  {
+   "limiar": 95,
+   "min_palavras_parcial": 4,
+   "eco_restante": {
+    "limpo": 0,
+    "eco_baixo": 0,
+    "eco_alto": 0,
+    "ruido": 0
+   },
+   "fala_removida": 0
+  },
+  {
+   "limiar": 100,
+   "min_palavras_parcial": 4,
+   "eco_restante": {
+    "limpo": 0,
+    "eco_baixo": 1,
+    "eco_alto": 0,
+    "ruido": 0
+   },
+   "fala_removida": 0
+  },
+  {
+   "limiar": 80,
+   "min_palavras_parcial": 0,
+   "eco_restante": {
+    "limpo": 0,
+    "eco_baixo": 0,
+    "eco_alto": 0,
+    "ruido": 0
+   },
+   "fala_removida": 3
+  }
+ ],
+ "ambiente": {
+  "modelo": "large-v3-turbo",
+  "dispositivo": "cuda",
+  "compute_type": "float16",
+  "gpu": "NVIDIA GeForce RTX 2060, 6144 MiB, 610.88",
+  "cpu": "AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD",
+  "nucleos": 12,
+  "so": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.10",
+  "faster_whisper": "1.2.1",
+  "ctranslate2": "4.9.0"
+ },
+ "parametros": {
+  "limiar_eco": 80,
+  "max_no_speech": 0.6,
+  "max_compressao": 2.4,
+  "condicoes": {
+   "limpo": {},
+   "eco_baixo": {
+    "eco_db": -24,
+    "atraso_ms": 120
+   },
+   "eco_alto": {
+    "eco_db": -12,
+    "atraso_ms": 180
+   },
+   "ruido": {
+    "snr_db": 15
+   }
+  },
+  "configs": {
+   "padrao": {
+    "vad_filter": false,
+    "condition_on_previous_text": true
+   },
+   "tratado": {
+    "vad_filter": true,
+    "condition_on_previous_text": false
+   }
+  },
+  "vozes": {
+   "terapeuta": "pt-BR-FranciscaNeural",
+   "paciente": "pt-BR-AntonioNeural"
+  }
+ },
+ "duracao_audio_s": 342.477,
+ "tempos": {
+  "audio_s": 26.1,
+  "transcricao_s": 107.0,
+  "total_s": 133.9,
+  "por_transcricao_s": {
+   "B_padrao": 8.5,
+   "B_tratado": 7.4,
+   "A_limpo_padrao": 9.4,
+   "A_limpo_tratado": 5.9,
+   "A_eco_baixo_padrao": 11.1,
+   "A_eco_baixo_tratado": 11.4,
+   "A_eco_alto_padrao": 10.8,
+   "A_eco_alto_tratado": 11.1,
+   "A_ruido_padrao": 13.4,
+   "A_ruido_tratado": 6.0
+  }
+ }
+}

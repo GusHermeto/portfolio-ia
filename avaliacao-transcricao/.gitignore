@@ -1,0 +1,7 @@
+.venv/
+.cache/
+.tmp/
+__pycache__/
+.pytest_cache/
+# áudios gerados (dezenas de MB); o rodar.py refaz tudo
+audio/
