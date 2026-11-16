@@ -75,7 +75,7 @@ Desenvolvo o Caderninho sozinho, coordenando vários agentes de IA. Eu não escr
 - Agentes em paralelo esgotam o limite de uso rápido. Poucos agentes bem dirigidos rendem mais que muitos.
 - O erro mais caro não é o código errado; é o agente consertar a coisa errada com confiança. Hoje eu peço que ele me mostre o que entendeu antes de mexer.
 
-**Ferramentas.** Claude Code (sessões, subagentes e worktrees do git), Gemini, e um grafo do código para o agente achar o caminho sem ler o projeto inteiro.
+**Ferramentas.** Claude Code (sessões, subagentes e worktrees do git), Antigravity (o ambiente de agentes do Google, com os modelos Gemini) como segundo par de olhos, e um grafo do código para o agente achar o caminho sem ler o projeto inteiro.
 
 ---
 
