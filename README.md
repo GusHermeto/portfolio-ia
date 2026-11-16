@@ -25,7 +25,7 @@ Estudante de Engenharia de Computação na UNIFEI (Itajubá, MG). Construo produ
 | [Prótese biônica de mão](#3-prótese-biônica-de-mão-tecnologia-assistiva-e-tinyml) | Tecnologia assistiva: prótese para pessoas com deficiência, controlada por voz em português | TinyML, reconhecimento de palavras em microcontrolador |
 | [Avaliação de transcrição com eco](#4-avaliação-de-transcrição-com-eco) | Experimento aberto e reproduzível: Whisper em português, com eco e silêncio | Whisper large-v3-turbo local, WER, filtro entre canais. Com [código](avaliacao-transcricao/) e [artigo](avaliacao-transcricao/ARTIGO.md) |
 
-Também nesta página: [Como eu valido IA](#como-eu-valido-ia) · [Minha trajetória](#minha-trajetória) · [O que ainda falta medir](#o-que-ainda-falta-medir)
+Também nesta página: [Como eu valido IA](#como-eu-valido-ia) · [Minha trajetória](#minha-trajetória)
 
 ---
 
@@ -167,26 +167,13 @@ Um experimento pequeno, aberto e reproduzível em 3 comandos: [código e resulta
 
 ## Minha trajetória
 
-Sou voltado para a necessidade de quem usa. O diretório de estudantes, a prótese para pessoas com deficiência, o suporte no instituto e o Caderninho são a mesma coisa: ouvir uma pessoa real, entender o problema e resolver.
+Estudante de Engenharia de Computação na UNIFEI (Itajubá, MG), com formatura prevista para 2028.
 
-- **Engenharia de Computação, UNIFEI (Itajubá, MG).** Formatura prevista para 2028. Não passei de primeira: comecei no campus de Itabira e entrei em Itajubá em 2019.2 pela prova de transferência, entre os três primeiros colocados.
-- **DCE da UNIFEI.** Secretário Executivo (mai/2022 a abr/2023), depois Diretor Administrativo e presidente da Sede Social (mai/2023 a abr/2024), reeleito (abr/2025 a mai/2026). Cuidei de finanças, custos, equipes, fornecedores e parcerias. Na primeira semana do mandato de 2023, a prefeitura abriu a desapropriação da sede. Atuei em duas frentes: com advogado e perícia, e indo a Brasília a uma reunião no IPHAN para pedir apoio. Uma assembleia com 378 estudantes rejeitou a proposta da prefeitura (nota oficial da UNIFEI de 24/05/2023).
-- **Ex Machina (mar/2022 a abr/2024).** Eletrônica e modelo de voz da [prótese biônica](#3-prótese-biônica-de-mão-tecnologia-assistiva-e-tinyml).
-- **Estágio de TI no Instituto de Engenharia Mecânica da UNIFEI (set/2025 a mai/2026).** Suporte a professores e alunos, rede e infraestrutura. Traduzo o problema de quem não é técnico em solução e ensino a pessoa a resolver sozinha. Um exemplo: um professor tinha um HD externo antigo que não abria. Diagnostiquei, tirei o disco da case, liguei direto para ganhar velocidade, vi que a saúde do disco estava crítica e salvei os arquivos em backup antes de ele morrer.
-- **Caderninho.** Produto próprio, do problema da minha prima ao app publicado.
+- **Caderninho (2026, atual).** Criador e único desenvolvedor.
+- **Estágio de TI, Instituto de Engenharia Mecânica da UNIFEI (set/2025 a mai/2026).** Suporte a professores e alunos, rede e infraestrutura.
+- **DCE da UNIFEI (2022 a 2026).** Secretário Executivo, depois Diretor Administrativo e presidente da Sede Social, eleito e reeleito. Finanças, equipes, fornecedores e parcerias.
+- **Ex Machina, UNIFEI (mar/2022 a abr/2024).** Analista e projetista de eletrônica da [prótese biônica](#3-prótese-biônica-de-mão-tecnologia-assistiva-e-tinyml).
 - **Idiomas e estudo.** Inglês avançado. Estudo o conteúdo da certificação Claude Certified Architect (Anthropic).
-
----
-
-## O que ainda falta medir
-
-- **Voz real de consultório.** Nenhum teste usa áudio de paciente, de propósito. A maior parte usa voz sintética; o teste de campo usa fala humana de um corpus público (CORAA-MUPE-ASR, CC BY-SA 4.0) tocada em caixa de som. Falta medir numa sessão de verdade, com consentimento.
-- **Eco.** Caiu muito, não zerou, e varia com a carga do computador. As comparações de eco são de uma rodada por versão.
-- **Experimento aberto.** Um roteiro só, voz sintética e eco simulado por soma digital. Vale como método, não como número de produção.
-- **Custo.** O valor total foi medido uma vez, com voz sintética. A queda de 90% na transcrição vem de tabela de preço, não de fatura.
-- **Sessão presencial.** A separação por canal não vale com um microfone só. Sobre esse caso eu ainda não afirmo nada.
-- **Celular.** Tem testes, não tem publicação.
-- **Tempo economizado pela psicóloga.** Não medi. Enquanto não medir, não afirmo.
 
 ---
 
