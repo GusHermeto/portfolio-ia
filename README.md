@@ -24,6 +24,7 @@ Estudante de Engenharia de Computação na UNIFEI (Itajubá, MG). Construo produ
 | [Como eu construo com agentes](#2-como-eu-construo-com-agentes) | O método que uso para desenvolver sozinho com vários agentes de IA | Orquestração, roteamento de modelos, revisão automática |
 | [Prótese biônica de mão](#3-prótese-biônica-de-mão-tecnologia-assistiva-e-tinyml) | Tecnologia assistiva: prótese para pessoas com deficiência, controlada por voz em português | TinyML, reconhecimento de palavras em microcontrolador |
 | [Avaliação de transcrição com eco](#4-avaliação-de-transcrição-com-eco) | Experimento aberto e reproduzível: Whisper em português, com eco e silêncio | Whisper large-v3-turbo local, WER, filtro entre canais. Com [código](avaliacao-transcricao/) e [artigo](avaliacao-transcricao/ARTIGO.md) |
+| [Agente de agenda](#5-agente-de-agenda-em-python) | Um agente pequeno e legível, com a ideia central da Sálvia | Laço de ferramentas, confirmação humana antes de gravar, testes sem modelo real. Com [código](agente-agenda/) |
 
 Também nesta página: [Como eu valido IA](#como-eu-valido-ia) · [Minha trajetória](#minha-trajetória)
 
@@ -146,6 +147,16 @@ Um experimento pequeno, aberto e reproduzível em 3 comandos: [código e resulta
 - O filtro entre canais resolve o eco. Tirar o silêncio antes (VAD) não resolve, porque eco é fala.
 - Uma parte do meu tratamento nunca disparou. O filtro por probabilidade de silêncio não cortou nada em 10 transcrições. Está escrito no artigo, na seção do que não funcionou.
 - O resultado sem tratamento muda a cada execução. Um número único enganaria; publiquei a faixa.
+
+---
+
+## 5. Agente de agenda em Python
+
+A ideia central da Sálvia num arquivo só, para ser lida: [código e explicação](agente-agenda/).
+
+- **Quatro partes.** Um modelo, três ferramentas, um laço e uma regra de confirmação.
+- **O modelo propõe, a pessoa confirma.** A única ferramenta que grava só grava depois do "sim". Erro do modelo vira proposta recusada, e não dado errado.
+- **Testado sem modelo real.** 6 testes com um modelo de roteiro fixo provam o laço, a confirmação, o tratamento de erro e o limite de voltas, sem chave e sem custo.
 
 ---
 
