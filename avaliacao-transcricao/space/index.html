@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Filtro de eco na transcrição</title>
+<style>
+  :root {
+    --fundo: #f7f6f2; --cartao: #ffffff; --texto: #1f2421; --suave: #5d665f; --linha: #dcdad2;
+    --verde: #2f6b4f; --verde-fundo: #e4efe8; --eco: #a8452f; --eco-fundo: #f8e6e0; --foco: #1d4ed8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --fundo: #151816; --cartao: #1e2320; --texto: #e9ece9; --suave: #a3ada5; --linha: #343b36;
+      --verde: #7fc7a2; --verde-fundo: #213328; --eco: #f0957d; --eco-fundo: #3a231d; --foco: #93b4ff;
+    }
+  }
+  * { box-sizing: border-box; }
+  [hidden] { display: none !important; }
+  body { margin: 0; background: var(--fundo); color: var(--texto);
+         font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 820px; margin: 0 auto; padding: 32px 16px 56px; }
+  h1 { font-size: 1.75rem; line-height: 1.2; margin: 0 0 8px; text-wrap: balance; }
+  h2 { font-size: 1.1rem; margin: 0 0 12px; }
+  p { margin: 0 0 12px; }
+  .suave { color: var(--suave); }
+  a { color: var(--verde); }
+  section { background: var(--cartao); border: 1px solid var(--linha); border-radius: 12px;
+            padding: 20px; margin-top: 16px; }
+  .placar { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; }
+  .placar div { border: 1px solid var(--linha); border-radius: 10px; padding: 12px 14px; }
+  .placar b { display: block; font-size: 1.9rem; line-height: 1.15; font-variant-numeric: tabular-nums; }
+  .placar span { font-size: .85rem; color: var(--suave); }
+  .ruim b { color: var(--eco); } .bom b { color: var(--verde); }
+  .controles { display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: center; margin-bottom: 16px; }
+  .grupo { display: inline-flex; border: 1px solid var(--linha); border-radius: 999px; padding: 3px; }
+  .grupo button { border: 0; background: none; color: var(--suave); font: inherit; padding: 6px 14px;
+                  border-radius: 999px; cursor: pointer; min-height: 36px; }
+  .grupo button[aria-pressed="true"] { background: var(--verde); color: var(--cartao); font-weight: 600; }
+  button:focus-visible, input:focus-visible { outline: 2px solid var(--foco); outline-offset: 2px; }
+  .limiar { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; margin-bottom: 16px; }
+  .limiar input { flex: 1 1 200px; accent-color: var(--verde); }
+  .limiar output { font-variant-numeric: tabular-nums; font-weight: 600; min-width: 2.5ch; }
+  #aviso { font-size: .9rem; margin: 0 0 14px; min-height: 1.4em; }
+  ol { list-style: none; margin: 0; padding: 0; max-height: 460px; overflow-y: auto;
+       border: 1px solid var(--linha); border-radius: 10px; }
+  li { display: grid; grid-template-columns: 52px 1fr auto; gap: 10px; padding: 8px 12px;
+       border-bottom: 1px solid var(--linha); align-items: baseline; }
+  li:last-child { border-bottom: 0; }
+  li time { font-size: .8rem; color: var(--suave); font-variant-numeric: tabular-nums; }
+  li small { font-size: .75rem; white-space: nowrap; border-radius: 999px; padding: 2px 8px; }
+  li.eco { background: var(--eco-fundo); }
+  li.eco small { background: var(--eco); color: var(--cartao); }
+  li.fala small { background: var(--verde-fundo); color: var(--verde); }
+  li.removido span { text-decoration: line-through; opacity: .55; }
+  li.removido small { background: none; color: var(--suave); border: 1px solid var(--linha); }
+  li.engano { outline: 2px solid var(--eco); outline-offset: -2px; }
+  .audios { display: grid; gap: 12px; }
+  .audios label { display: grid; gap: 4px; font-size: .9rem; }
+  audio { width: 100%; height: 36px; }
+  pre { background: var(--fundo); border: 1px solid var(--linha); border-radius: 10px; padding: 12px;
+        overflow-x: auto; font-size: .82rem; line-height: 1.45; margin: 0 0 12px; }
+  ul.limites { margin: 0; padding-left: 20px; }
+  @media (max-width: 560px) {
+    .placar { grid-template-columns: 1fr; }
+    li { grid-template-columns: 44px 1fr; } li small { grid-column: 2; justify-self: start; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Filtro de eco na transcrição de uma consulta online</h1>
+  <p class="suave">Numa consulta online, a voz do paciente sai da caixa de som, volta pelo microfone e aparece
+  como se a terapeuta tivesse falado. Esta página mostra o problema e o filtro que eu fiz para resolver.
+  Por <a href="https://github.com/GusHermeto/portfolio-ia">Gustavo Hermeto</a>.</p>
+
+  <section aria-label="Resultado">
+    <div class="placar">
+      <div id="placar-wer"><b id="n-wer">–</b><span>erro de transcrição (WER) no canal da terapeuta</span></div>
+      <div id="placar-eco"><b id="n-eco">–</b><span>trechos de eco na transcrição</span></div>
+      <div id="placar-fala"><b id="n-fala">–</b><span>falas da terapeuta apagadas por engano</span></div>
+    </div>
+  </section>
+
+  <section aria-label="Transcrição">
+    <h2>Transcrição do microfone da terapeuta</h2>
+    <div class="controles">
+      <div class="grupo" role="group" aria-label="Filtro">
+        <button type="button" data-filtro="0" aria-pressed="true">Sem filtro</button>
+        <button type="button" data-filtro="1" aria-pressed="false">Com filtro</button>
+      </div>
+      <div class="grupo" role="group" aria-label="Volume do eco">
+        <button type="button" data-cond="eco_baixo" aria-pressed="true">Eco baixo</button>
+        <button type="button" data-cond="eco_alto" aria-pressed="false">Eco alto</button>
+      </div>
+    </div>
+    <div class="limiar" id="caixa-limiar" hidden>
+      <label for="limiar">Rigor do filtro (semelhança mínima para chamar de eco):</label>
+      <input type="range" id="limiar" min="30" max="100" step="5" value="80">
+      <output for="limiar" id="v-limiar">80</output>
+    </div>
+    <p id="aviso" class="suave" aria-live="polite"></p>
+    <ol id="lista"></ol>
+  </section>
+
+  <section aria-label="Áudio">
+    <h2>Ouça 22 segundos do microfone</h2>
+    <div class="audios">
+      <label>Sem eco (só a terapeuta) <audio controls preload="none" src="A_limpo.wav"></audio></label>
+      <label>Eco baixo (o paciente vaza ao fundo) <audio controls preload="none" src="A_eco_baixo.wav"></audio></label>
+      <label>Eco alto <audio controls preload="none" src="A_eco_alto.wav"></audio></label>
+    </div>
+  </section>
+
+  <section aria-label="Como funciona">
+    <h2>Como o filtro funciona</h2>
+    <p>O computador grava dois canais: o microfone (terapeuta) e o som do computador (paciente). Os dois são
+    transcritos. Um trecho do microfone é descartado quando acontece ao mesmo tempo que uma fala do paciente
+    e repete o texto dela.</p>
+<pre>def filtrar_eco(segs_a, segs_b, limiar=80, folga_s=0.3):
+    mantidos, removidos = [], []
+    for sa in segs_a:
+        vizinhos = [sb["texto"] for sb in segs_b
+                    if sobreposicao(sa["ini"] - folga_s, sa["fim"] + folga_s,
+                                    sb["ini"], sb["fim"]) > 0]
+        eco = bool(vizinhos) and similaridade(sa["texto"], " ".join(vizinhos)) >= limiar
+        (removidos if eco else mantidos).append(sa)
+    return mantidos, removidos</pre>
+    <p>Frase de menos de quatro palavras é comparada pelo texto inteiro. Sem isso, um "Uhum" da terapeuta
+    seria apagado sempre que o paciente dissesse algo parecido.</p>
+  </section>
+
+  <section aria-label="Limites">
+    <h2>O que esta demonstração não prova</h2>
+    <ul class="limites">
+      <li style="display:list-item;border:0;padding:0">A voz é sintética e o eco é simulado por soma de sinais, sem caixa de som e microfone reais.</li>
+      <li style="display:list-item;border:0;padding:0">É um roteiro só, fictício: 54 turnos, 342 segundos, 319 palavras da terapeuta.</li>
+      <li style="display:list-item;border:0;padding:0">Os resultados foram calculados antes, com o Whisper large-v3-turbo. A página não roda o modelo.</li>
+    </ul>
+    <p style="margin-top:12px">Código, dados e artigo:
+    <a href="https://github.com/GusHermeto/portfolio-ia/tree/main/avaliacao-transcricao">github.com/GusHermeto/portfolio-ia</a>.</p>
+  </section>
+</main>
+
+<script src="dados.js"></script>
+<script>
+  const estado = { cond: "eco_baixo", filtro: false, limiar: DADOS.limiar_padrao };
+  const $ = (id) => document.getElementById(id);
+  const br = (n) => String(n).replace(".", ",");
+  const relogio = (s) => Math.floor(s / 60) + ":" + String(Math.floor(s % 60)).padStart(2, "0");
+
+  function desenhar() {
+    const cond = DADOS.condicoes[estado.cond];
+    const lado = estado.filtro ? cond.depois : cond.antes;
+    const medida = estado.filtro ? lado.por_limiar[estado.limiar] : lado.medida;
+
+    $("n-wer").textContent = br(medida.wer) + "%";
+    $("n-eco").textContent = medida.eco;
+    $("n-fala").textContent = medida.fala_removida;
+    $("placar-wer").className = medida.wer > 10 ? "ruim" : "bom";
+    $("placar-eco").className = medida.eco > 1 ? "ruim" : "bom";
+    $("placar-fala").className = medida.fala_removida > 0 ? "ruim" : "bom";
+
+    $("caixa-limiar").hidden = !estado.filtro;
+    $("v-limiar").textContent = estado.limiar;
+    $("aviso").textContent = !estado.filtro
+      ? "Em vermelho: fala do paciente que o microfone captou e o Whisper transcreveu como se fosse da terapeuta."
+      : medida.fala_removida > 0
+        ? "Rigor baixo demais: o filtro apagou fala verdadeira da terapeuta (contorno vermelho)."
+        : "Riscado: trecho que o filtro descartou. O número ao lado é a semelhança com a fala do paciente.";
+
+    const lista = $("lista");
+    lista.textContent = "";
+    for (const s of lado.segmentos) {
+      const removido = estado.filtro && s.sim >= estado.limiar;
+      const li = document.createElement("li");
+      li.className = s.tipo === "eco" ? "eco" : "fala";
+      if (removido) li.className = "removido" + (s.tipo === "fala" ? " engano" : "");
+      const hora = document.createElement("time");
+      hora.textContent = relogio(s.ini);
+      const texto = document.createElement("span");
+      texto.textContent = s.texto;
+      const marca = document.createElement("small");
+      marca.textContent = removido
+        ? (s.tipo === "fala" ? "apagado por engano · " : "descartado · ") + Math.round(s.sim)
+        : s.tipo === "eco" ? "eco do paciente" : "terapeuta";
+      li.append(hora, texto, marca);
+      lista.append(li);
+    }
+  }
+
+  for (const botao of document.querySelectorAll(".grupo button")) {
+    botao.addEventListener("click", () => {
+      if (botao.dataset.cond) estado.cond = botao.dataset.cond;
+      else estado.filtro = botao.dataset.filtro === "1";
+      for (const irmao of botao.parentElement.children) irmao.setAttribute("aria-pressed", irmao === botao);
+      desenhar();
+    });
+  }
+  $("limiar").addEventListener("input", (e) => { estado.limiar = Number(e.target.value); desenhar(); });
+  desenhar();
+</script>
+</body>
+</html>

@@ -158,5 +158,7 @@ requirements.txt
 dados/roteiro.json    roteiro fictício
 dados/linha_do_tempo.json   início e fim de cada turno, silêncios (gabarito)
 resultados/           resultados.json, tabela.md, variacao.json, variacao.md, transcricoes/
+space/                demonstração no navegador (https://huggingface.co/spaces/Hermeto/filtro-de-eco);
+                      gerar_dados.py refaz dados.js e os trechos de áudio a partir das transcrições
 audio/                WAV e mp3 gerados (ignorados pelo git, cerca de 65 MB)
 ```

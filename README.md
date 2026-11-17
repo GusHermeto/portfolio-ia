@@ -127,7 +127,7 @@ Projeto da equipe Ex Machina, da UNIFEI, que desenvolve próteses biônicas para
 
 ## 4. Avaliação de transcrição com eco
 
-Um experimento pequeno, aberto e reproduzível em 3 comandos: [código e resultados](avaliacao-transcricao/) e [artigo](avaliacao-transcricao/ARTIGO.md). Isolei fora do produto dois problemas que encontrei no Caderninho.
+Um experimento pequeno, aberto e reproduzível em 3 comandos: [código e resultados](avaliacao-transcricao/), [artigo](avaliacao-transcricao/ARTIGO.md) e [demonstração no navegador](https://huggingface.co/spaces/Hermeto/filtro-de-eco). Isolei fora do produto dois problemas que encontrei no Caderninho.
 
 **O problema.** Numa consulta online, a voz do paciente sai da caixa de som, volta pelo microfone e aparece repetida na fala da terapeuta (eco). E o Whisper inventa frases onde ninguém fala (alucinação em silêncio).
 
