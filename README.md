@@ -22,7 +22,7 @@ Estudante de Engenharia de Computação na UNIFEI (Itajubá, MG). Construo produ
 |---|---|---|
 | [Caderninho](#1-caderninho-ia-para-psicólogas) | App de desktop que transcreve a sessão e rascunha o prontuário | Transcrição, LLM, agente com 20 ferramentas, busca em documentos, cancelador de eco neural |
 | [Como eu construo com agentes](#2-como-eu-construo-com-agentes) | O método que uso para desenvolver sozinho com vários agentes de IA | Orquestração, roteamento de modelos, revisão automática |
-| [Prótese biônica de mão](#3-prótese-biônica-de-mão-tecnologia-assistiva-e-tinyml) | Tecnologia assistiva: prótese para pessoas com deficiência, controlada por voz em português | TinyML, reconhecimento de palavras em microcontrolador |
+| [Prótese biônica de mão](#3-prótese-biônica-de-mão-tecnologia-assistiva-e-tinyml) | Tecnologia assistiva: prótese para pessoas com deficiência, controlada por voz em português e por sinais musculares (EMG) | TinyML, reconhecimento de palavras em microcontrolador, eletromiografia |
 | [Avaliação de transcrição com eco](#4-avaliação-de-transcrição-com-eco) | Experimento aberto e reproduzível: Whisper em português, com eco e silêncio | Whisper large-v3-turbo local, WER, filtro entre canais. Com [código](avaliacao-transcricao/) e [artigo](avaliacao-transcricao/ARTIGO.md) |
 | [Agente de agenda](#5-agente-de-agenda-em-python) | Um agente pequeno e legível, com a ideia central da Sálvia | Laço de ferramentas, confirmação humana antes de gravar, testes sem modelo real. Com [código](agente-agenda/) |
 
@@ -111,7 +111,7 @@ Desenvolvo o Caderninho sozinho, coordenando vários agentes de IA. Em 81 dias f
 
 Projeto da equipe Ex Machina, da UNIFEI, que desenvolve próteses biônicas para pessoas com deficiência. Fui analista e projetista de eletrônica da equipe de março de 2022 a abril de 2024. O projeto foi destaque no blog oficial da Arduino em 31/08/2022: [Controlling a bionic hand with tinyML keyword spotting](https://blog.arduino.cc/2022/08/31/controlling-a-bionic-hand-with-tinyml-keyword-spotting/).
 
-**O que é.** Uma prótese de mão que abre, fecha e faz gestos por comando de voz em português, pensada para devolver autonomia a quem perdeu o movimento ou o membro. O modelo roda dentro do microcontrolador (Arduino Nano 33 BLE Sense), sem internet.
+**O que é.** Uma prótese de mão que abre, fecha e faz gestos, pensada para dar mais autonomia a pessoas com deficiência. Ela tem dois controles: comando de voz em português e sinais musculares (EMG), captados por eletrodos no antebraço, que reconhecem gestos como "ok" e "rock". O modelo de voz roda dentro do microcontrolador (Arduino Nano 33 BLE Sense), sem internet. O destaque no blog da Arduino trata só do controle por voz.
 
 **Como foi feito.**
 
